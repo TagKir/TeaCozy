@@ -1,0 +1,114 @@
+body {
+  font-family: Helvetica, sans-serif;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+}
+
+header {
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 69px;
+  background-color: black;
+  align-items: center;
+  flex-wrap: wrap;
+  border-bottom: 1px solid seashell;
+}
+
+header img {
+  margin-left: 10px;
+  height: 50px;
+  margin-right: auto;
+}
+
+nav ul li {
+  display: inline-flex;
+  margin-right: 20px;
+  list-style-type: none;
+}
+
+nav a {
+  color: seashell;
+}
+
+/* Misson section */
+#Mission {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-image: url("resourses/img-mission-background.jpg");
+  margin-left: auto;
+  margin-right: auto;
+  min-height: 700px;
+  max-width: 1200px;
+  margin-top: 70px;
+  margin-bottom: 50px;
+  flex-wrap: wrap;
+}
+#Mission div {
+  background-color: black;
+  width: 100%;
+}
+/* FeaturedTea section */
+#FeaturedTea {
+  align-items: center;
+  margin: auto;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  display: inline-flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: auto;
+}
+#FeaturedTea h2 {
+  margin-bottom: -5px;
+  width: 100%;
+}
+#h4tea {
+  width: 100%;
+}
+#FeaturedTea img {
+  width: 300px;
+  height: 200px;
+}
+#FeaturedTea figcaption {
+  margin-top: -19.26px;
+}
+
+/* Locations */
+#Locations {
+  background-image: url("resourses/img-locations-background.jpg");
+  max-width: 1200px;
+  min-height: 500px;
+  align-items: center;
+  margin: auto;
+  text-align: center;
+}
+#Locations h2 {
+  padding-top: 50px;
+  margin-bottom: 15px;
+}
+article {
+  display: inline-flex;
+  flex-direction: column;
+  min-width: 300px;
+  margin: 20px;
+  background-color: black;
+  opacity: 1;
+}
+
+/* Footer */
+footer {
+  margin: auto;
+  text-align: center;
+}
+#copy {
+  text-align: left;
+  margin-left: 20px;
+}
